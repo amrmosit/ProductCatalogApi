@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "LQfC2/ONTkw=",
+  "dgSpecHash": "Fb8i/41Ybks=",
   "success": true,
   "projectFilePath": "/Users/amrmostafa/Coding Projects/C#/ProductCatalogApi/ProductCatalogApi.csproj",
   "expectedPackageFiles": [
     "/Users/amrmostafa/.nuget/packages/microsoft.aspnetcore.openapi/9.0.5/microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
-    "/Users/amrmostafa/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/amrmostafa/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/amrmostafa/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/Users/amrmostafa/.nuget/packages/swashbuckle.aspnetcore/8.1.4/swashbuckle.aspnetcore.8.1.4.nupkg.sha512",
+    "/Users/amrmostafa/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.4/swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",
+    "/Users/amrmostafa/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.1.4/swashbuckle.aspnetcore.swaggergen.8.1.4.nupkg.sha512",
+    "/Users/amrmostafa/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.1.4/swashbuckle.aspnetcore.swaggerui.8.1.4.nupkg.sha512"
   ],
   "logs": []
 }

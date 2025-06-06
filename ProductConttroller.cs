@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 
-[Route("api/[controller]")]
+[Route("api/products")]
 [ApiController]
 public class ProductController : ControllerBase
 {
@@ -10,14 +10,14 @@ public class ProductController : ControllerBase
 
     // GET: Retrieve all products
     [HttpGet]
-    public ActionResult<IEnumerable<Product>> GetAll() => Products;
+    public ActionResult<IEnumerable<Product>> GetAll() => products;
 
     // GET: Retrieve a product by ID
     [HttpGet("{id}")]
     public ActionResult<Product> GetById(int id)
     {
         var product = products.FirstOrDefault(p => p.Id == id);
-        return Product != null ? Ok(product) : NotFound();
+        return product != null ? Ok(product) : NotFound();
     }
     // POST: Create a new product
     [HttpPost]
